@@ -76,7 +76,7 @@ Ensure you have the following:
 3. Check ThingSpeak for real-time cloud visualizations.
 
 ### ThingSpeak Dashboard Output
-![ThingSpeak Output](./Images/thingspeakout.jpg)
+![ThingSpeak Output](./Images/thingspeakout.jpg.jpg)
 
 ## Troubleshooting
 
@@ -92,13 +92,13 @@ For detailed setup instructions, error handling, and system diagrams, refer to t
 ---
 
 ### Sensor Connections
-![Sensor Connections](./Images/error.jpg)
+![Sensor Connections](./Images/error.jpg.jpg)
 
 ### Node-RED Code
-![Node-RED Code](./Images/noderedcode.jpg)
+![Node-RED Code](./Images/noderedcode.jpg.jpg)
 
 ### ThingSpeak Code
-![ThingSpeak Code](./Images/thingspeakcode.jpg)
+![ThingSpeak Code](./Images/thingspeakcode.jpg.jpg)
 
 ### ThingSpeak Dashboard 2
 ![ThingSpeak Dashboard 2](./Images/ThingspeakDash2.jpg)
