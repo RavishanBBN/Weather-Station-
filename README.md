@@ -10,8 +10,9 @@ This repository contains the Weather Station Project, which integrates sensors, 
    - [Dependencies](#dependencies)
    - [Installation](#installation)
 4. [Usage](#usage)
-5. [Troubleshooting](#troubleshooting)
-6. [Documentation](#documentation)
+5. [Mobile Alert Integration](#mobile-alert-integration)
+6. [Troubleshooting](#troubleshooting)
+7. [Documentation](#documentation)
 
 ## Introduction
 
@@ -76,7 +77,30 @@ Ensure you have the following:
 3. Check ThingSpeak for real-time cloud visualizations.
 
 ### ThingSpeak Dashboard Output
-![ThingSpeak Output](./Images/thingspeakout.jpg.jpg)
+![ThingSpeak Output](./Images/thingspeakout.jpg)
+
+---
+
+## Mobile Alert Integration
+
+To ensure mobile alerts for high thresholds, we configured notifications using Pushbullet and ThingSpeak React. The system automatically sends notifications to your mobile device whenever hazardous levels cross a predefined threshold.
+
+### Steps:
+1. Configure a ThingSpeak React:
+   - Go to the "React" section of ThingSpeak.
+   - Set up a condition for when hazardous levels exceed a certain threshold.
+   - Use the ThingHTTP action to send a POST request to Pushbullet.
+2. Link with Pushbullet:
+   - Use your API key to authenticate the notification service.
+   - Format the request body with the alert title and message.
+
+### Mobile Notification Example
+![Mobile Notification Example 1](./Images/mobile_alert_1.jpg)
+
+### Pushbullet Configuration
+![Pushbullet Example](./Images/mobile_alert_2.jpg)
+
+---
 
 ## Troubleshooting
 
@@ -91,14 +115,13 @@ For detailed setup instructions, error handling, and system diagrams, refer to t
 
 ---
 ### Node-RED Code
-![Node-RED Code](./Images/noderedcode.jpg.jpg)
+![Node-RED Code](./Images/noderedcode.jpg)
 
 ### ThingSpeak Code
-![ThingSpeak Code](./Images/thingspeakcode.jpg.jpg)
+![ThingSpeak Code](./Images/thingspeakcode.jpg)
 
 ### ThingSpeak Dashboard 2
 ![ThingSpeak Dashboard 2](./Images/ThingspeakDash2.jpg)
 
 ### Errors
-![Errors](./Images/error.jpg.jpg)
-
+![Errors](./Images/error.jpg)
