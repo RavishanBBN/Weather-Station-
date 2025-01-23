@@ -28,7 +28,7 @@ The Weather Station Project collects data such as temperature, pressure, and haz
 - Mobile notifications for threshold alerts.
 
 ### Node-RED Flow Overview
-![Node-RED Flow](./Images/NodeRedflow.jpg)
+![Node-RED Flow](./Images/Noderedflow.jpg)
 
 ## Setup Instructions
 
