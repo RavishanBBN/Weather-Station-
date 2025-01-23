@@ -90,10 +90,6 @@ Ensure you have the following:
 For detailed setup instructions, error handling, and system diagrams, refer to the [Documentation](./Documentation) folder.
 
 ---
-
-### Sensor Connections
-![Sensor Connections](./Images/error.jpg.jpg)
-
 ### Node-RED Code
 ![Node-RED Code](./Images/noderedcode.jpg.jpg)
 
@@ -102,3 +98,7 @@ For detailed setup instructions, error handling, and system diagrams, refer to t
 
 ### ThingSpeak Dashboard 2
 ![ThingSpeak Dashboard 2](./Images/ThingspeakDash2.jpg)
+
+### Errors
+![Errors](./Images/error.jpg.jpg)
+
