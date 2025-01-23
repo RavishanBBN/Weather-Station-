@@ -77,7 +77,7 @@ Ensure you have the following:
 3. Check ThingSpeak for real-time cloud visualizations.
 
 ### ThingSpeak Dashboard Output
-![ThingSpeak Output](./Images/thingspeakout.jpg)
+![ThingSpeak Output](./Images/thingspeakout.jpg.jpg)
 
 ---
 
@@ -95,10 +95,10 @@ To ensure mobile alerts for high thresholds, we configured notifications using P
    - Format the request body with the alert title and message.
 
 ### Mobile Notification Example
-![Mobile Notification Example 1](./Images/mobile_alert_1.jpg)
+![Mobile Notification Example 1](./Images/MobileNotifications.jpg)
 
 ### Pushbullet Configuration
-![Pushbullet Example](./Images/mobile_alert_2.jpg)
+![Pushbullet Example](./Images/Alerts.jpg)
 
 ---
 
@@ -115,13 +115,13 @@ For detailed setup instructions, error handling, and system diagrams, refer to t
 
 ---
 ### Node-RED Code
-![Node-RED Code](./Images/noderedcode.jpg)
+![Node-RED Code](./Images/noderedcode.jpg.jpg)
 
 ### ThingSpeak Code
-![ThingSpeak Code](./Images/thingspeakcode.jpg)
+![ThingSpeak Code](./Images/thingspeakcode.jpg.jpg)
 
 ### ThingSpeak Dashboard 2
 ![ThingSpeak Dashboard 2](./Images/ThingspeakDash2.jpg)
 
 ### Errors
-![Errors](./Images/error.jpg)
+![Errors](./Images/error.jpg.jpg)
