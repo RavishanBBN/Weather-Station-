@@ -10,15 +10,16 @@ This repository contains the Weather Station Project, which integrates sensors, 
    - [Dependencies](#dependencies)
    - [Installation](#installation)
 4. [Usage](#usage)
-5. [Troubleshooting](#troubleshooting)
-6. [Documentation](#documentation)
+5. [Mobile Alert Integration](#mobile-alert-integration)
+6. [Troubleshooting](#troubleshooting)
+7. [Documentation](#documentation)
 
 ## Introduction
 
 The Weather Station Project collects data such as temperature, pressure, and hazardous gas levels using sensors connected to a Raspberry Pi. The data is processed using Python scripts, visualized with Node-RED dashboards, and uploaded to ThingSpeak for remote monitoring.
 
 ### Node-RED Dashboard Example
-![Node-RED Dashboard](./Images/NodeRedDash.jpg)
+![Node-RED Dashboard](./Images/NoderedDash.jpg)
 
 ## Features
 
@@ -28,7 +29,7 @@ The Weather Station Project collects data such as temperature, pressure, and haz
 - Mobile notifications for threshold alerts.
 
 ### Node-RED Flow Overview
-![Node-RED Flow](./Images/NodeRedflow.jpg)
+![Node-RED Flow](./Images/Noderedflow.jpg)
 
 ## Setup Instructions
 
@@ -78,6 +79,29 @@ Ensure you have the following:
 ### ThingSpeak Dashboard Output
 ![ThingSpeak Output](./Images/thingspeakout.jpg)
 
+---
+
+## Mobile Alert Integration
+
+To ensure mobile alerts for high thresholds, we configured notifications using Pushbullet and ThingSpeak React. The system automatically sends notifications to your mobile device whenever hazardous levels cross a predefined threshold.
+
+### Steps:
+1. Configure a ThingSpeak React:
+   - Go to the "React" section of ThingSpeak.
+   - Set up a condition for when hazardous levels exceed a certain threshold.
+   - Use the ThingHTTP action to send a POST request to Pushbullet.
+2. Link with Pushbullet:
+   - Use your API key to authenticate the notification service.
+   - Format the request body with the alert title and message.
+
+### Mobile Notification Example
+![Mobile Notification Example 1](./Images/mobile_alert_1.jpg)
+
+### Pushbullet Configuration
+![Pushbullet Example](./Images/mobile_alert_2.jpg)
+
+---
+
 ## Troubleshooting
 
 - **Sensor Read Errors**: Check wiring and sensor connections.
@@ -90,10 +114,6 @@ Ensure you have the following:
 For detailed setup instructions, error handling, and system diagrams, refer to the [Documentation](./Documentation) folder.
 
 ---
-
-### Sensor Connections
-![Sensor Connections](./Images/error.jpg)
-
 ### Node-RED Code
 ![Node-RED Code](./Images/noderedcode.jpg)
 
@@ -102,3 +122,6 @@ For detailed setup instructions, error handling, and system diagrams, refer to t
 
 ### ThingSpeak Dashboard 2
 ![ThingSpeak Dashboard 2](./Images/ThingspeakDash2.jpg)
+
+### Errors
+![Errors](./Images/error.jpg)
