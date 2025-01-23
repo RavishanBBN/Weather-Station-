@@ -18,7 +18,7 @@ This repository contains the Weather Station Project, which integrates sensors, 
 The Weather Station Project collects data such as temperature, pressure, and hazardous gas levels using sensors connected to a Raspberry Pi. The data is processed using Python scripts, visualized with Node-RED dashboards, and uploaded to ThingSpeak for remote monitoring.
 
 ### Node-RED Dashboard Example
-![Node-RED Dashboard](./Images/NodeRedDash.jpg)
+![Node-RED Dashboard](./Images/NoderedDash.jpg)
 
 ## Features
 
